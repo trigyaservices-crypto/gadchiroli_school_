@@ -1,0 +1,8 @@
+node_modules/
+.wrangler/
+dist/
+*.pyc
+__pycache__/
+.DS_Store
+*.log
+npm-debug.log*

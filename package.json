@@ -1,0 +1,13 @@
+{
+  "name": "lighthouse-school-visit",
+  "version": "1.0.0",
+  "description": "Lighthouse School Visit Platform — Gadchiroli District",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "start": "npx serve dist -p 8000",
+    "preview": "npm run build && npx wrangler dev",
+    "deploy": "npm run build && npx wrangler deploy",
+    "deploy:pages": "npm run build && npx wrangler pages deploy dist"
+  }
+}

@@ -1,0 +1,6 @@
+_worker.js
+node_modules/
+.wrangler/
+*.ts
+*.map
+.DS_Store
